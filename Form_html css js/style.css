@@ -1,0 +1,11 @@
+.form-control, .form-group{
+    width: 75% !important;
+    display: flex;
+    margin: 0% 2%;
+}
+
+.form-label{
+    width: 25%;
+    font: bold;
+    font-size: 18px;
+}
