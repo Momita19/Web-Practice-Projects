@@ -1,0 +1,13 @@
+#nav{
+    display: inline-block !important;
+}
+
+.nav-menu{
+    /* padding: 0%; */
+    background-color: red;
+    display: inline !important;
+}
+
+#navMenu{
+    display: inline;
+}
