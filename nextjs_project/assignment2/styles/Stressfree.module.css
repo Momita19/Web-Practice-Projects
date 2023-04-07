@@ -1,0 +1,118 @@
+/* middle section of investing starts here */
+
+/* @media only screen and (min-width: 1440px){ */
+.stressgrid{
+    display: block;
+    background: #FFFFFF;
+    width: 100%;
+    height: 760px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 80px 80px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .stressgridItem1{
+    display: flex;
+    height: 500px;
+    width: 100%;
+  }
+  
+.stressgridItem2{
+    display: flex;
+    margin-top: -85px;
+    /* margin-bottom: 139px; */
+  }
+  
+.stressFreeInvesting{
+    display: table-column ;
+    width:836.8px;
+    align-items: center;
+    margin-top: 200px;
+    background: #FFFFFF;
+    padding: 32px 0px 32px 48px;
+    /* height: 400px; */
+  }  
+  
+ .h1StressfreeInvesting {
+    font-size: 4.7em;
+    color: #121B64;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  
+  .content{
+    font-weight: 400;
+    font-size: 1.75em;
+    line-height: 36px;
+    text-align: center;
+    color: #32302F;
+  }
+
+  .percentCoin{
+    float: right;
+    width: 50%;
+  }
+  
+  .percentCoinImg{
+    float: right;
+    margin-right: 250px;
+  }
+  .arrowCoin{
+    width: 50%;
+  }
+
+  .arrowCoinImg{
+    float: right;
+    margin-right: 110px
+
+  }
+  
+ .joinTheWaitlist{
+    display: flex;
+      padding: 16px;
+      justify-items: center;
+      gap: 10px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 32px;
+      height: 3.313em;
+      background: #121B64;
+      border-radius: 32px;
+      line-height: 21px;
+      flex-wrap: wrap;
+      color: #fff;
+      align-items: center;
+      text-align: center;
+  }
+/* } */
+  /* middle section of investing ends here */
+  
+
+  /* middle section of investing starts here */
+
+@media (min-width: 330px) and (max-width: 1024px){
+
+.percentCoin{
+  float: left;
+  width: 50%;
+}
+
+.percentCoinImg{
+  float: left;
+  margin-left: 100px;
+}
+.arrowCoin{
+  width: 50%;
+}
+
+.arrowCoinImg{
+  float: right;
+  margin-right: 90px
+
+}
+}
+@media (min-width: 300 ) and (max-width: 700){
+
+}

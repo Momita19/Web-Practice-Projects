@@ -1,0 +1,115 @@
+/* @media only screen and (min-width:1440px){ */
+.FollowUs {
+    border-radius: 0px 0px 80px 80px;
+    background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 52.6%, #FFFFFF 100%);
+    width: auto;
+    height: 47.5em;
+    flex-shrink: 0;
+    overflow: hidden;
+    padding: 100px 72px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Futura PT', sans-serif;
+  }
+.frameParent{
+    width: 1440px;
+    height: 442px;
+    padding: 0px;
+    gap: 80px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}  
+.FollowUs, .frameParent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.FollowUsHeader{
+    position: relative;
+    line-height: 120%;
+    font-family: 'Futura PT', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #121B64;
+}
+
+.followUsParent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+    width:700px;
+    height: 181.01px;
+
+}
+.header{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 120%;
+    color: #121B64;
+}
+.discoverThePassion{
+    position: relative;
+    font-size: 28px;
+    color: #32302F;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 700px;
+    top: 32px;
+  
+}
+.frameGroup{
+    align-self: stretch;
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 32px 242px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 256px;
+    font-size: 16px;
+    color: grey;
+    width: 1440px;
+    height: 181px;
+}
+/* } */
+@media (min-width:701px) and (max-width: 1024px){
+    .FollowUs{
+      width: 1024px;
+    height: 600px;
+    background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 17.24%, #FFFFFF 100%);
+    border-radius: 0px 0px 80px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 72px;
+    gap: 32px;
+    }
+
+  }
+  @media (min-width: 300 ) and (max-width: 700){
+    .FollowUs{
+      box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 48px 24px;
+        width: 375px;
+        height: 304px;
+        background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 17.24%, #FFFFFF 100%);
+        border-radius: 0px 0px 48px 48px;
+    }
+  }

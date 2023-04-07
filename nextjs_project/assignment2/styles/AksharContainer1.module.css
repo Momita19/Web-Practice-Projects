@@ -1,0 +1,53 @@
+.frameChild {
+    align-self: stretch;
+    flex: 1;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .aksharShah,
+  .founderAndCeo,
+  .frameChild {
+    position: relative;
+  }
+  .founderAndCeo {
+    color: var(--grey);
+  }
+  .aksharShahParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 9px;
+  }
+  .linkedinIcon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .frameGroup,
+  .frameParent {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+  }
+  .frameGroup {
+    overflow: hidden;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-between;
+  }
+  .frameParent {
+    flex: 1;
+    border: 1px solid var(--light-grey);
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    font-family: 20px;
+  }
+  

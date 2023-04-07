@@ -1,0 +1,70 @@
+@import url("https://fonts.cdnfonts.com/css/futura-pt");
+.frameChild {
+    position: relative;
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+  }
+  .safeInvestmentsThat {
+    flex: 1;
+    position: relative;
+    font-size: 20px;
+    padding-left: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #32302F;
+    font-weight: 500;
+  }
+  .frameGroup {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .frameItem,
+  .lowRiskHigh {
+    align-self: stretch;
+    position: relative;
+    width: 384px;
+  }
+
+  .frameItem {
+    border-top: 1px solid #DFDEDE;
+    box-sizing: border-box;
+    height: 1px;
+    margin-top: 24px;
+  }
+
+  .lowRiskHigh {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    padding: 25px 8px;
+    width: 100%;
+  }
+  .frameParent {
+    font-family: 'Futura PT', sans-serif;
+    font-style: normal;
+    align-self: stretch;
+    flex: 1;
+    border-radius: 12px;
+    margin-right:24px;
+    width: 416px;
+    height: 220px;
+    background-color: #fff;
+    box-shadow: 0 18px 50px -10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    display: flex;
+    align-items: center
+  }

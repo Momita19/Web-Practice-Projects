@@ -1,0 +1,139 @@
+
+.screenInner {
+    box-sizing: border-box;
+    text-align: center;
+    height: 760px;
+    background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 17.24%, #FFFFFF 100%);
+    border-radius: 0rem 0rem 5rem 5rem;
+    width: 94.3rem;
+    padding: 103.2px 72px;
+    gap: 32px;
+    font-size: 64px;
+    color: #121B64;
+    font-family: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap:32px;  
+  }
+  .inThePressParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 13xl;
+  }
+  
+.inThePress {
+    position: relative;
+    line-height: 120%;
+  }
+  .discoverThePassion {
+    position: relative;
+    font-size: 28px;;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    top: 32px;
+  }
+
+  .YourStoryIcon {
+    position: absolute;
+    top: 48px;
+    left: 7.008px;
+    width: 285.008px;
+    height: 102px;
+    object-fit: cover;
+  }
+  .imageWrapper {
+    position: relative;
+    background-color: white;
+    width: 18.75rem;
+    height: 9.375rem;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .news18Icon,
+  .livemintIcon {
+    position: absolute;
+    top: 2.125rem;
+    left: 0.313rem;
+    width: 18.063rem;
+    height: 7.25rem;
+    object-fit: cover;
+  }
+  .livemintIcon {
+    top: 3.5rem;
+    left: 0;
+    width: 19.125rem;
+    height: 5.875rem;
+  }
+  .frameGroup {
+    position: absolute;
+    margin-top: 0.625rem;
+    left: 7.375rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+  }
+  .frameWrapper {
+    position: relative;
+    width: 72rem;
+    height: 10.625rem;
+    flex-shrink: 0;
+    overflow: hidden;
+    left: 0.5em;
+    right: 2.5em;
+  }
+  @media (min-width:701px) and (max-width: 1024px){
+    .screenInner{
+    width: 64rem;
+    height: 600px;
+    background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 17.24%, #FFFFFF 100%);
+    border-radius: 0px 0px 80px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 72px;
+    gap: 32px;
+    }
+    .frameWrapper {
+      position: relative;
+      width: 880px;
+      height: 170px;
+      flex-shrink: 0;
+      overflow: hidden;
+    }
+    .imageWrapper {
+      position: relative;
+      background-color: white;
+      width: 18.75rem;
+      height: 9.375rem;
+      flex-shrink: 0;
+      overflow: hidden;
+    }
+
+  }
+  @media (min-width: 300 ) and (max-width: 700){
+.screenInner{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px 24px;
+
+    width: 375px !important;
+    height: 304px !important;
+
+    background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 17.24%, #FFFFFF 100%);
+    border-radius: 0px 0px 48px 48px;
+    }
+  }
+  
+  

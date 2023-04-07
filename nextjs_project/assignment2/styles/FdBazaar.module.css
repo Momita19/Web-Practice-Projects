@@ -1,0 +1,224 @@
+/* FdBazaar Start */
+/* FD bazaar section of investing starts here */
+/* @media only screen and (min-width: 1439px) and (max-width: 1880px) { */
+
+.fdbazar{
+    /* padding: 100px 72px; */
+    width: 100%;
+    height: 760px;
+    background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+    border-radius: 0px 0px 80px 80px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr)
+  
+  }
+.emptyBlock1{
+    width: 496px;
+    height: 496px;
+    margin: 130px 0em 130px 72px;
+    background: #F4F3F3;
+  }
+.FdBazarContent{
+    display: flex;
+    flex-direction: column;
+    float: right;
+  }
+  
+.fdbazarHeader{
+    color: #121B64;
+    margin-top: 255px;
+    margin-right: 72px;
+    float:right;
+    display: flex;
+    align-self: end;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 120%;
+  }
+  .fdbazarp p{
+    margin-right: 72px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    font-size: 24px;
+    float: right;
+
+  }
+  .explorefd{
+    text-align: center;
+    border: 1px solid #121B64;
+    border-radius: 55px;
+    padding: 16px;
+    gap: 10px;
+    color: #121B64;
+  }
+  .explorefbParent{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 72px;
+    float: right;
+  }
+/* } */
+
+@media (min-width:741px) and (max-width: 1024px){
+.fdbazar{
+  width: 1024px;
+  height: 540px;
+
+  background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+  border-radius: 0px 0px 80px 80px;
+}
+.emptyBlock1{
+  /* position: absolute; */
+  margin-top: 92px;
+  width: 355px;
+  height:355px;
+  /* top: 92.5px; */
+  left: 72px;
+  /* bottom:92.5px; */
+  /* left: 7.03%;
+  right: 58.25%;
+  top: 17.11%;
+  bottom: 17.11%; */
+
+  background: #F4F3F3;
+}
+.FdBazarContent{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 506px;
+height: 255px;
+right: 72px;
+top: 145px;
+bottom: 104px;
+}
+
+.fdbazarHeader{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #121B64;
+  justify-content: flex-end;
+  float: right;
+  margin-top: 50px;
+  margin-right: 0px;
+}
+.explorefd{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 10px;
+  width: 133px;
+  height: 58px;
+  border: 1px solid #121B64;
+  border-radius: 55px;
+}
+.explorefbParent{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 10px;
+  margin: 0px;
+}
+.fdbazarp p{
+  width: 485px;
+  height: 108px;
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #32302F;
+  margin-right: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+}
+
+@media (min-width:300px) and (max-width: 740px){
+.fdbazar{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 48px 24px;
+gap: 24px;
+width: 375px;
+height: 652px;
+background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+border-radius: 0px 0px 48px 48px;
+}
+
+.emptyBlock1{
+  width: 327px;
+  height: 327px;
+  background: #DDDDDD;
+}
+.FdBazarContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 375px;
+  /* padding: 48px 24px;
+  gap: 24px;
+  width: 375px; */
+  /* padding: 48px 24px; */
+  height: 652px;
+  background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+  border-radius: 0px 0px 48px 48px;
+}
+.fdbazarHeader{
+  width: 327px;
+height: 41px;
+  font-family: 'Futura PT';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 41px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #121B64;
+}
+
+}
+  
+  /* FD bazaar section of investing ends here */
+  
+  /* #savings{
+    gap: 89px;
+    height: 47.5em;
+    background: linear-gradient(180deg, #F7F7F7 0%, rgba(255, 255, 255, 0.95) 35.27%);
+    border-radius: 0px 0px 80px 80px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+  } */
+  
+  /* @media (prefers-color-scheme: dark) {
+    html {
+      color-scheme: dark;
+    }
+  }  */
+  

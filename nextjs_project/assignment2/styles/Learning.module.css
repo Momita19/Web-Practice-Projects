@@ -1,0 +1,211 @@
+.Learning {
+  height: 760px;
+  background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+  border-radius: 0px 0px 80px 80px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  font-family: 'Futura PT', sans-serif;
+  font-style: normal;
+  width: 100%;
+}
+
+.learningContent {
+  font-family: sans-serif;
+  margin: 100px 72px 185.008px 72px;
+}
+
+/* .writtenContent{
+  margin-top: 0px 50px 32px 50px; 
+} */
+/* .heading{
+  width: 78.813rem;
+  height: 4.813rem;
+} */
+.writtenContent {
+  align-items: center;
+  display: grid;
+  justify-items: center;
+}
+
+.learnHeading {
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 32px;
+  align-items: center;
+  font-weight: 550;
+  font-size: 64px;
+  line-height: 120%;
+  display: inline;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  color: #121B64;
+}
+
+.learnP {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  display: inline-flex;
+  margin-bottom: 32px;
+  /* align-items: center; */
+  text-align: center;
+  color: #32302F;
+  width: 945px;
+  height: 70px;
+
+}
+
+
+.btnMoreInsight {
+  text-align: center;
+  border: 1px solid #121B64;
+  border-radius: 55px;
+  padding: 16px;
+  gap: 10px;
+  color: #121B64;
+
+}
+
+.image {
+  width: 296px;
+  height: 203px;
+  /* url(.jpg), */
+  background: #ECECEC;
+  border-radius: 6px;
+}
+
+.body {}
+
+@media (min-width:701px) and (max-width: 1024px) {
+  .Learning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 72px;
+    gap: 64px;
+    width: 1024px;
+    height: 1407px;
+    background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+    border-radius: 0px 0px 80px 80px;
+  }
+
+  .learningContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    width: 327px;
+    height: 808px;
+  }
+
+  .writtenContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    width: 880px;
+    height: 181px;
+  }
+  .learnHeading{
+    width: 880px;
+height: 77px;
+font-family: 'Futura PT', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 120%;
+display: flex;
+align-items: center;
+text-align: center;
+color: #121B64;
+  }
+.learnP{
+  width: 880px;
+  height: 72px;
+}
+.p{
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #32302F;
+}
+.learningCard{
+  display: block;
+}
+
+}
+
+@media (min-width: 300) and (max-width: 700) {
+  .Learning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 24px;
+    gap: 32px;
+    width: 375px;
+    height: 989px;
+    background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+    border-radius: 0px 0px 48px 48px;
+  }
+
+  .learningContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+
+    width: 880px;
+    height: 1085px;
+  }
+
+  .writtenContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    width: 327px;
+    height: 808px;
+  }
+  .learnHeading{
+    width: 327px;
+    height: 82px;
+    font-family: 'Futura PT', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #121B64;
+  }
+  .learnP{
+    width: 327px;
+    height: 63px;
+  }
+  .p{
+font-family: 'Futura PT', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #32302F;
+
+  }
+
+}

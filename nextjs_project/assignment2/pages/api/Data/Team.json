@@ -1,0 +1,45 @@
+[
+    
+    {   
+        "id" :  1,
+        "src" : "/images/Team/Frame 251.svg",
+        "fname" : "Akshar",
+        "lname": "Shah",
+        "designation" : "Founder and CEO",
+        "linkedin": "/images/Team/vector.svg"
+    },
+    {
+        "id" : 2,
+        "src" : "/images/Team/akshar1.svg",
+        "fname" : "Akshar",
+        "lname": "Shah",
+        "designation" : "Founder and CEO",
+        "linkedin": "/images/Team/vector.svg"
+    },
+    {   
+        "id" : 3,
+        "src" : "/images/Team/akshar2.svg",
+        "fname" : "Akshar",
+        "lname": "Shah",
+        "designation" : "Founder and CEO",
+        "linkedin": "/images/Team/vector.svg"
+    },
+    {   
+        "id":4,
+        "src" : "/images/Team/akshar3.svg",
+        "fname" : "Akshar",
+        "lname": "Shah",
+        "designation" : "Founder and CEO",
+        "linkedin": "/images/Footer/linkedin.png"
+    },
+    {
+        "id" : 5,
+        "src" : "/images/Team/akshar(4).svg",
+        "fname" : "Akshar",
+        "lname": "Shah",
+        "designation" : "Founder and CEO",
+        "linkedin": "/images/Team/vector.svg"
+    }
+
+
+]

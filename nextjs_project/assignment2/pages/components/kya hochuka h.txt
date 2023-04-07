@@ -1,0 +1,13 @@
+comp            mobile  table   desktop 
+navbar                          yes 
+announcement            yes     yes
+Fdbazar                 yes     yes     
+Fixed                           yes
+learning                        yes  
+FollowUs        yes     yes     yes 
+startinvest     yes     yes     yes 
+press           yes     yes     yes
+footer                          yes
+stressfree      yes     yes     yes
+team            yes     d       yes
+saving          yes     yes     yes

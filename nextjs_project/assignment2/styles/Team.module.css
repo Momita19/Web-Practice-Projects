@@ -1,0 +1,296 @@
+@media only screen and (min-width: 1440px){
+  .content {
+    position: relative;
+    line-height: 120%;
+    font-family: 'Futura PT',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 120%;
+/* identical to box height, or 77px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Brand/Blue */
+
+color: #121B64;
+  }
+  .para {
+    position: relative;
+    font-size: 28px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+  }
+  .cardWrapper,
+  .contentParent {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .contentParent {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-13xl);
+  }
+  .cardWrapper {
+    width: 246px;
+    height: 360px;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .quotationIcon,
+  .quotationIcon1 {
+    position: absolute;
+    top: 50px;
+    left: 368px;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+  }
+  .quotationIcon1 {
+    top: 250px;
+    left: 1180px;
+  }
+  .ourVisionIs {
+    position: absolute;
+    top: 139px;
+    /* left: calc(50% - 385px); */
+    display: flex;
+    align-items: center;
+    width: 771px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    color: #686868;
+    left:457px;
+  }
+  .quotationParent {
+    flex: 1;
+    position: absolute;
+    width: 1294px;
+    height: 380px;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #BEBEBE;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 32px;
+    color: gray;
+  }
+  .cardContainer,
+  .frameDiv {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameDiv {
+    height: 360px;
+    flex-shrink: 0;
+    gap: var(--gap-base);
+  }
+  .card,
+  .teamFrame,
+  .Team {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .card {
+    width: 1294px;
+    align-items: flex-start;
+    gap: 13px;
+    font-size: 16px;
+    color: black;
+  }
+  .teamFrame,
+  .Team {
+    align-items: center;
+  }
+  .teamFrame {
+    gap: var(--gap-61xl);
+  }
+  .Team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 760px;
+    background: linear-gradient(180deg, #F6F6F6 0%, rgba(255, 255, 255, 0.984043) 14.35%);
+    border-radius: 0px 0px 80px 80px;
+    flex: none;
+    order: 8;
+    flex-grow: 0;
+    overflow: hidden;
+    text-align: center;
+    width:100%;
+  }
+  
+}
+/* .Team{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 760px;
+  background: linear-gradient(180deg, #F6F6F6 0%, rgba(255, 255, 255, 0.984043) 14.35%);
+  border-radius: 0px 0px 80px 80px;
+  flex: none;
+  order: 8;
+  flex-grow: 0;
+  overflow: hidden;
+}
+.Team .teamFrame{
+    overflow: hidden;
+    text-align: center;
+
+}
+.teamFrame {
+  width: 1294px;
+  height: 1013px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 80px; */
+  /* padding:0px;
+  top:100px; */
+/* }
+.contentParent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  width: 700px;
+  height: 181px;
+}
+.textFrame{
+  position: relative;
+  width: 771px;
+  height: 82px;
+  left: calc(50% - 771px/2 + 0.5px);
+  top: 139px; */
+
+  /* Heading_32px */
+
+  /* font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 41px;
+  display: flex;
+  align-items: center;
+  
+  color: #686868;
+}
+.frameGrp,
+.frame,
+.fixed,
+.whyFixedMain {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameGrp {
+  width: 1296px;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: left;
+  font-size: 28px;
+  color: #000;
+}
+.frame,
+.fixed {
+  flex-direction: column;
+  align-items: center;
+}
+.frame {
+  gap: 61px;
+}
+.card{
+  display: grid;
+  grid-template: repeat(1fr) / 50px 100px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  top:80px;
+  width: 1294px;
+  height: 250px;
+}
+.card1{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  width: 1294px;
+  height: 360px;
+} */
+/* .cardIndividual{ */ 
+  /* width:246px !important;
+  height: 282 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 72px;
+  gap: 32px;
+
+  width: 1438px;
+  height: 1173px;
+
+  background: linear-gradient(180deg, #F6F6F6 0%, rgba(255, 255, 255, 0.984043) 14.35%);
+  border-radius: 0px 0px 80px 80px; */
+/* }
+.name{
+    font-weight: 500;
+  font-size: 16px;
+  line-height: 21px; */
+  /* identical to box height */
+
+  /* display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+.textFrame{
+  grid-area: 3/2/1;
+}
+.para {
+  width: 700px;
+  height: 72px;
+  position: relative;
+  font-size: 28px;
+  color: #32302F;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 1;
+}
+.contentParent{
+    margin: 80px 72px 80px 72px;
+}
+/* .writtenContent{
+  margin: 0px 175.5px 88px 175.5px; 
+} */
+/* .teamHeading{
+  position: relative;
+  line-height: 120%;
+  width: 700px;
+  height: 72px;
+  font-weight: 500;
+  font-size: 64px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #121B64;
+  justify-content: center;
+  
+}
+} */ 
