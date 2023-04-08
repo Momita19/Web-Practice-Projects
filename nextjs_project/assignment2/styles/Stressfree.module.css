@@ -1,6 +1,5 @@
 /* middle section of investing starts here */
 
-/* @media only screen and (min-width: 1440px){ */
 .stressgrid {
   display: block;
   background: #FFFFFF;
@@ -29,7 +28,7 @@
   display: table-column;
   width: 52.3rem;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 6.6875rem;
   background: #FFFFFF;
   padding: 32px 0px 32px 48px;
 }

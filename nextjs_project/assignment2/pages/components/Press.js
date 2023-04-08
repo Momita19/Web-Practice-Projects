@@ -26,7 +26,7 @@ const Press = () => {
               <Image
                 className={styles.news18Icon}
                 alt=""
-                src={data.Press.src2}  width ={289} height={116}
+                src="/images/Press/News18.svg"  width ={289} height={116}
               />
             </div>
             <div className={styles.imageWrapper}>

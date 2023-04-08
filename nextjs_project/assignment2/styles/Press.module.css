@@ -90,7 +90,7 @@
 
 .frameWrapper {
   position: relative;
-  width: 115%;
+  width: 90%;
   height: 10.625rem;
   flex-shrink: 0;
   overflow: hidden;
