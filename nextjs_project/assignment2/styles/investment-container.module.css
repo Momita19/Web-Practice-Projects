@@ -1,4 +1,4 @@
-@import url("https://fonts.cdnfonts.com/css/futura-pt");
+
 .frameChild {
     position: relative;
     width: 56px;
@@ -44,7 +44,7 @@
     line-height: 22px;
     display: flex;
     align-items: center;
-    padding: 25px 8px;
+    padding: 16px 8px;
     width: 100%;
   }
   .frameParent {

@@ -1,202 +1,199 @@
 /* @media only screen and (max-width: 1441px){ */
-  .TaxSaver{
-    height: 760px;
-    width: 100%;
-    background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
-    border-radius: 0px 0px 80px 80px;
-    font-family: 'Futura PT', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-    display: flex;
-    position: relative;
-    grid-template-columns: repeat(2, 1fr)
-  
-  }
-  .emptyBlock2{
-    width: 496px;
-    height: 496px;
-    margin: 130px 0px 130px 72px;
-    background: #F4F3F3;
-  }
-  /* .TaxSaverContent{
-    display: flex-end;
-    flex-direction: column;
-    height: 250px;
-    width: 796px;
-    /* align-items: flex-end; */
-    /* top: 225px;
-    right: 72px;
-    float: right;
-  }  */
-  
-  .taxHeader{
-    color: #121B64;
-    margin-top: 255px;
-    margin-right: 4.82vw;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 64px;
-    margin-left: 96px;
-    line-height: 120%;
-    text-align: end;
-  }
- .texSaverp p{
-    margin-top: 24px;
-    margin-right:72px;
-    margin-bottom: 24px;
-    margin-left: 96px;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 36px;
-    display: flex-end;
-    align-items: center;
-    text-align: right;
-  }
-  .saveTaxParent{
-    display: flex-end;
-    align-items: center;
-    justify-content: flex-end;
-    margin-right: 72px;
-  }
-  .saveTax{
-    text-align: center;
-    border: 1px solid #121B64;
-    border-radius: 55px;
-    padding: 16px;
-    gap: 10px;
-    color: #121B64;
-    float: right;
-    align-items: end;
-  }
-/* } */
-
-@media (min-width:741px) and (max-width: 1024px){
-.TaxSaver{
-  width: 1024px;
-  height: 540px;
+.TaxSaver {
+  height: 760px;
+  width: 100%;
   background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
   border-radius: 0px 0px 80px 80px;
-}
-.emptyBlock2{
-/* position: absolute; */
-margin-top: 92px;
-width: 355px;
-height:355px;
-/* top: 92.5px; */
-left: 72px;
-/* bottom:92.5px; */
-/* left: 7.03%;
-right: 58.25%;
-top: 17.11%;
-bottom: 17.11%; */
-background: #F4F3F3;
-}
-.TaxSaverContent{
-  display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-end;
-padding: 0px;
-gap: 24px;
-
-position: absolute;
-width: 506px;
-height: 255px;
-right: 72px;
-top: calc(50% - 255px/2 + 0.5px);
-}
-.taxHeader{
+  font-family: 'Futura PT', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 64px;
-  line-height: 120%;
-  display: flex;
-  align-items: center;
-  text-align: right;
-  color: #121B64;
-  justify-content: flex-end;
-  float: right;
-  margin-top: 50px;
-  margin-right: 0px;
+  font-size: 16px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(2, 1fr)
 }
-.saveTaxParent{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px;
-  gap: 10px;
-  margin-right: 0%;
-}
-.saveTax{
 
-  width: 133px;
-  height: 58px;
-  border: 1px solid #121B64;
-  border-radius: 55px;
+.emptyBlock2 {
+  width: 496px;
+  height: 496px;
+  margin: 130px 0px 130px 72px;
+  background: #F4F3F3;
 }
-.texSaverp p{
-  width: 485px;
-  height: 108px;
-  font-family: 'Futura PT';
+
+.taxHeader {
+  color: #121B64;
+  margin-top: 255px;
+  margin-right: 4.82vw;
   font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  margin-left: 96px;
+  line-height: 120%;
+  text-align: end;
+}
+
+.texSaverp p {
+  margin-top: 24px;
+  margin-right: 72px;
+  margin-bottom: 24px;
+  margin-left: 50px;
   font-weight: 400;
   font-size: 28px;
   line-height: 36px;
-  display: flex;
+  display: flex-end;
   align-items: center;
   text-align: right;
-  color: #32302F;
-  margin-right: 0px !important;
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
 }
-}
-@media only screen and  (min-width:300px) and (max-width: 740px){
-.TaxSaver{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 48px 24px;
-gap: 24px;
-width: 375px;
-height: 652px;
-background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
-border-radius: 0px 0px 48px 48px;
 
-}
-.emptyBlock2{
-  width: 327px;
-  height: 327px;
-  background: #DDDDDD;
-}
-.TaxSaverContent{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 48px 24px;
-  gap: 24px;
-  width: 375px;
-  height: 652px;
-  background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
-  border-radius: 0px 0px 48px 48px;
-}
-.taxHeader{
-  width: 327px;
-  height: 41px;
-    font-family: 'Futura PT';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 41px;
-  display: flex;
+.saveTaxParent {
+  display: flex-end;
   align-items: center;
-  text-align: center;
-  color: #121B64;
+  justify-content: flex-end;
+  margin-right: 72px;
 }
-} 
+
+.saveTax {
+  text-align: center;
+  border: 1px solid #121B64;
+  border-radius: 55px;
+  padding: 16px;
+  gap: 10px;
+  color: #121B64;
+  float: right;
+  align-items: end;
+}
+
+/* } */
+
+@media (min-width:741px) and (max-width: 1024px) {
+  .TaxSaver {
+    width: 1024px;
+    height: 540px;
+    background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+    border-radius: 0px 0px 80px 80px;
+  }
+
+  .emptyBlock2 {
+    margin-top: 92px;
+    width: 355px;
+    height: 355px;
+    left: 72px;
+    background: #F4F3F3;
+  }
+
+  .TaxSaverContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 506px;
+    height: 255px;
+    right: 72px;
+    top: calc(50% - 255px/2 + 0.5px);
+  }
+
+  .taxHeader {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #121B64;
+    justify-content: flex-end;
+    float: right;
+    margin-top: 50px;
+    margin-right: 0px;
+  }
+
+  .saveTaxParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+    margin-right: 0%;
+  }
+
+  .saveTax {
+
+    width: 133px;
+    height: 58px;
+    border: 1px solid #121B64;
+    border-radius: 55px;
+  }
+
+  .texSaverp p {
+    width: 485px;
+    height: 108px;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #32302F;
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+}
+
+@media only screen and (min-width:300px) and (max-width: 740px) {
+  .TaxSaver {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 48px 24px;
+    gap: 24px;
+    width: 375px;
+    height: 652px;
+    background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+    border-radius: 0px 0px 48px 48px;
+
+  }
+
+  .emptyBlock2 {
+    width: 327px;
+    height: 327px;
+    background: #DDDDDD;
+  }
+
+  .TaxSaverContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 48px 24px;
+    gap: 24px;
+    width: 375px;
+    height: 652px;
+    background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+    border-radius: 0px 0px 48px 48px;
+  }
+
+  .taxHeader {
+    width: 327px;
+    height: 41px;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #121B64;
+  }
+}

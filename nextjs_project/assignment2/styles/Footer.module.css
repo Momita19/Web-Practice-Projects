@@ -1,132 +1,147 @@
-
 .footerChild {
-    position: absolute;
-    bottom: 116.5px;
-    left: calc(50% - 648.5px);
-    border-top: 1px solid #DFDEDE;
-    box-sizing: border-box;
-    width: 1296px;
-    height: 1px;
-  
-  }
-  .fixerraPvtLtd {
-    position: absolute;
-    bottom: 64px;
-    left: 72px;
-    font-size: 14px;
-    font-family: "Poppins";
-  }
-  .frameIcon {
-    position: relative;
-    width: 24px;
-    height: 24px;
-    flex-shrink: 0;
-    overflow: hidden;
-    
-  }
-  .frameParent {
-    position: absolute;
-    right: 79px;
-    bottom: 77px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-start;
-    gap: 39.5px;
-  }
-  .wantToTalk {
-    color: #fff;
-  }
-  .callUsAnd,
-  .wantToTalk {
-    position: relative;
-    display: inline-block;
-    width: 342px;
-  }
-  .phoneParent,
-  .wantToTalkParent {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .phoneParent {
-    flex-direction: row;
-    /* padding: var(--padding-3xs) 0; */
-    gap: 12px;
-  }
-  .wantToTalkParent {
-    position: absolute;
-    top: 100px;
-    left: 549px;
-    flex-direction: column;
-    gap: 7px;
-  }
-  .invest {
-    position: relative;
-  }
-  .companyParent,
-  .fdBazaarParent,
-  .investParent {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 6px;
-    color: #ffffff;
-  }
-  .companyParent,
-  .investParent {
-    position: absolute;
-    top: 88px;
-    left: 1242px;
-    gap: 13px;
-    color: #ffffff;
-  }
-  .companyParent {
-    left: 1065px;
-  }
-  .frameIcon3 {
-    position: relative;
-    width: 108.75px;
-    height: 30px;
-    flex-shrink: 0;
-    overflow: hidden;
-  }
-  .frameGroup {
-    position: absolute;
-    top: 100px;
-    left: 72px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 30px;
-  }
+  position: absolute;
+  bottom: 116.5px;
+  left: calc(50% - 648.5px);
+  border-top: 1px solid #DFDEDE;
+  box-sizing: border-box;
+  width: 1296px;
+  height: 1px;
+
+}
+
+.fixerraPvtLtd {
+  position: absolute;
+  bottom: 64px;
+  left: 72px;
+  font-size: 14px;
+  font-family: "Poppins";
+}
+
+.frameIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+
+}
+
+.frameParent {
+  position: absolute;
+  right: 79px;
+  bottom: 77px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 39.5px;
+}
+
+.wantToTalk {
+  color: #fff;
+}
+
+.callUsAnd,
+.wantToTalk {
+  position: relative;
+  display: inline-block;
+  width: 342px;
+}
+
+.phoneParent,
+.wantToTalkParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.phoneParent {
+  flex-direction: row;
+  gap: 12px;
+}
+
+.wantToTalkParent {
+  position: absolute;
+  top: 100px;
+  left: 549px;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.invest {
+  position: relative;
+}
+
+.companyParent,
+.fdBazaarParent,
+.investParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+  color: #ffffff;
+}
+
+.companyParent,
+.investParent {
+  position: absolute;
+  top: 88px;
+  left: 1242px;
+  gap: 13px;
+  color: #ffffff;
+}
+
+.companyParent {
+  left: 1065px;
+}
+
+.frameIcon3 {
+  position: relative;
+  width: 108.75px;
+  height: 30px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.frameGroup {
+  position: absolute;
+  top: 100px;
+  left: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.footerParent {
+  position: relative;
+  background-color: #121B64;
+  width: 100%;
+  height: 584px;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-align: left;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-family: 20px;
+}
+
+@media (max-width: 1024px) {
   .footerParent {
-    position: relative;
-    background-color: #121B64;
-    width: 100%;
-    height: 584px;
-    flex-shrink: 0;
-    overflow: hidden;
-    text-align: left;
-    font-size: 20px;
-    color: #FFFFFF;
-    font-family: 20px;
+    width: auto;
+    height: 579px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
   }
-  @media (max-width: 1024px){
-    .footerParent{
-      width: auto;
-      height: 579px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      flex-wrap: nowrap;
-    }
-    
+
+}
+
+@media (min-width: 300) and (max-width: 700) {
+  .footerParent {
+    width: 375px;
   }
-  @media (min-width: 300 ) and (max-width: 700){
-    .footerParent{
-      width:375px;
-    }
-  }
+}

@@ -1,21 +1,15 @@
-@media only screen and (min-width: 1440px){
   .content {
     position: relative;
     line-height: 120%;
     font-family: 'Futura PT',sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 64px;
-line-height: 120%;
-/* identical to box height, or 77px */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-/* Brand/Blue */
-
-color: #121B64;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #121B64;
   }
   .para {
     position: relative;
@@ -133,7 +127,7 @@ color: #121B64;
     width:100%;
   }
   
-}
+
 /* .Team{
   display: flex;
   flex-direction: column;
