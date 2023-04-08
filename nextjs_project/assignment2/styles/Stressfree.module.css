@@ -56,8 +56,8 @@
 
 .percentCoinImg {
   float: right;
-  margin-right: 25rem;
   position: absolute;
+  left: 100px;
 }
 
 .arrowCoin {
