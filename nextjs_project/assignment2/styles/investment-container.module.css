@@ -48,8 +48,6 @@
     width: 100%;
   }
   .frameParent {
-    font-family: 'Futura PT', sans-serif;
-    font-style: normal;
     align-self: stretch;
     flex: 1;
     border-radius: 12px;
@@ -67,4 +65,12 @@
     text-align: left;
     display: flex;
     align-items: center
+  }
+
+  @media (min-width: 340px) and (max-width:770px) {
+    .frameParent {
+      width: 327px;
+      height: 150px;
+      margin: 24px;
+    }
   }

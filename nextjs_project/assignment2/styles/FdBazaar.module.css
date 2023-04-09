@@ -161,15 +161,15 @@
   }
 }
 
-@media (min-width:300px) and (max-width: 740px) {
+@media (min-width:375px) and (max-width: 740px) {
   .fdbazar {
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 48px 24px;
     gap: 24px;
-    width: 375px;
+    width: 327px;
     height: 652px;
     background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
     border-radius: 0px 0px 48px 48px;
@@ -179,15 +179,16 @@
     width: 327px;
     height: 327px;
     background: #DDDDDD;
+    margin: 0px;
   }
 
   .FdBazarContent {
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     width: 375px;
-    height: 652px;
+    height: 205px;
     background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
     border-radius: 0px 0px 48px 48px;
   }
@@ -197,15 +198,28 @@
     height: 41px;
     font-family: 'Futura PT';
     font-style: normal;
+    margin: 24px;
     font-weight: 500;
     font-size: 32px;
     line-height: 41px;
-    display: flex;
+    display: block;
     align-items: center;
     text-align: center;
     color: #121B64;
   }
 
+  .fdbazarp p {
+    margin: 24px;
+    width: 327px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .explorefbParent{
+    margin:0px 128px;
+  }
 }
 
 /* FD bazaar section of investing ends here */

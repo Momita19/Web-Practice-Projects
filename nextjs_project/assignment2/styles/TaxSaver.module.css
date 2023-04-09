@@ -157,16 +157,16 @@
     align-items: flex-start;
     padding: 48px 24px;
     gap: 24px;
-    width: 375px;
-    height: 652px;
+    width: 317px;
+    height: 631px;
     background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
     border-radius: 0px 0px 48px 48px;
 
   }
 
   .emptyBlock2 {
-    width: 327px;
-    height: 327px;
+    width: 317px;
+    height: 317px;
     background: #DDDDDD;
   }
 
@@ -177,7 +177,7 @@
     align-items: flex-start;
     padding: 48px 24px;
     gap: 24px;
-    width: 375px;
+    width: 290px;
     height: 652px;
     background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
     border-radius: 0px 0px 48px 48px;
@@ -196,4 +196,5 @@
     text-align: center;
     color: #121B64;
   }
+  
 }

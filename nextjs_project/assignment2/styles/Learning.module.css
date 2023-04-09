@@ -139,7 +139,7 @@
 
 }
 
-@media (min-width: 300) and (max-width: 700) {
+@media (min-width: 300px) and (max-width: 700px) {
   .Learning {
     display: flex;
     flex-direction: column;
@@ -147,9 +147,13 @@
     padding: 48px 24px;
     gap: 32px;
     width: 375px;
-    height: 989px;
+    height: 1132px;
     background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
     border-radius: 0px 0px 48px 48px;
+  }
+  .learningContent {
+    font-family: sans-serif;
+    margin: 0px 72px 0px 72px;
   }
 
   .learningContent {
@@ -157,8 +161,6 @@
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    gap: 80px;
-
     width: 880px;
     height: 1085px;
   }
@@ -169,9 +171,7 @@
     align-items: center;
     padding: 0px;
     gap: 32px;
-
     width: 327px;
-    height: 808px;
   }
 
   .learnHeading {
@@ -194,8 +194,6 @@
   }
 
   .p {
-    font-family: 'Futura PT', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
@@ -205,5 +203,20 @@
     color: #32302F;
 
   }
+  .cardGrid {
+    display: block !important;
+    height: 850px;
+    overflow: hidden;
+  }
+
+  /* .image{
+    width: 311px;
+    height: 150px;
+  }
+
+  .cardBody{
+    width: 327px !important;
+    height: 290px !important;
+  } */
 
 }

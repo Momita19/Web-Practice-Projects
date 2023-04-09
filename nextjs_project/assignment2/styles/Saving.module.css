@@ -147,27 +147,21 @@
 
 }
 
-@media (min-width: 300) and (max-width: 740) {
+@media (min-width: 370px) and (max-width: 740px) {
   .savingSection {
     display: flex;
-    flex-direction: column;
+    position: relative;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     padding: 48px 24px;
     gap: 24px;
     width: 375px;
-    height: 631px;
-    background: linear-gradient(180deg, #F7F7F7 0%, rgba(255, 255, 255, 0.95) 35.27%);
-    border-radius: 0px 0px 48px 48px;
-    flex: none;
-    order: 4;
-    flex-grow: 0;
+    height: 631px;  
   }
 
   .saveNowWrapper {
-    width: 327px;
-    height: 327px;
-
+    /* height: 327px; */
     background: #DDDDDD;
   }
 
@@ -177,45 +171,65 @@
     justify-content: center;
     align-items: center;
     padding: 0px;
-    gap: 24px;
-
+    margin: 0px;
+    gap: 0px;
     width: 327px;
-    height: 184px;
+    height: 229px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
     align-self: stretch;
+    position: relative;
+    top: 175px;
   }
 
   .savings {
     width: 327px;
     height: 41px;
+    text-align: center;
   }
 
   .savingsTxtContainer {
-    font-family: 'Futura PT', sans-serif;
-    font-style: normal;
-    font-weight: 500;
     font-size: 32px;
     line-height: 41px;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     color: #121B64;
   }
 
   .span {
-    background: linear-gradient(0deg, #7E8139, #7E8139);
+    color: linear-gradient(0deg, #7E8139, #7E8139);
 
   }
 
   .getAccessTo {
-    width: 327px;
+    width:327px;
     height: 42px;
     font-family: 'Futura PT', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
+    font-size: 14px;
+    line-height: 20.52px;
     display: flex;
+    /* padding-left: 50px; */
     align-items: center;
+    align-self: stretch;
     color: #32302F;
+  }
+
+  .savingChild {
+    position: absolute;
+    background: #F4F3F3;
+    height: 327px;
+    width: 327px;
+    margin: 0px;
+    /* left: 596px; */
+    /* top: 92.3681640625px; */
+    /* right: 72.44px; */
+    border-radius: 0px;
+    top: 48px;
+
   }
 }

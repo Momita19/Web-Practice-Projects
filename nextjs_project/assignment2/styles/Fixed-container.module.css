@@ -130,7 +130,12 @@
 
 }
 
-@media (max-width: 700) {
+@media (min-width: 370px) and (max-width: 740px) {
+  .fixed .whyFixed {
+    overflow: visible;
+    font-size: 32px;
+  }
+
   .fixed {
     display: flex;
     flex-direction: column;
@@ -138,13 +143,10 @@
     align-items: center;
     padding: 48px 24px;
     gap: 10px;
-    width: 375px !important;
+    width: 375px;
     height: 789px;
     background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 31.23%);
     border-radius: 0px 0px 48px 48px;
-    flex: none;
-    order: 6;
-    flex-grow: 0;
   }
 
   .frame {
@@ -153,26 +155,27 @@
     align-items: center;
     padding: 0px;
     gap: 32px;
-
     width: 327px;
     height: 693px;
-
   }
 
   .whyFixedMain {
-    width: 340px;
+    width: 375px;
     height: 77px;
   }
 
-  .whyFixed {
-    font-weight: 500;
-    font-size: 64px;
-    line-height: 120%;
-    display: flex;
+  .para {
+    font-size: 16px;
     align-items: center;
-    text-align: right;
-    color: #121B64;
-
+    text-align: center;
+    width: 325px;
+    margin-top: 32px;
   }
+
+  .frameGrp{
+    display: block;
+    width: 420px;
+  }
+
 
 }
