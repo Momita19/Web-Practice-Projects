@@ -89,16 +89,45 @@
 
 /* middle section of investing ends here */
 
-@media (min-width: 330px) and (max-width: 1024px) {
+@media (min-width: 669px) and (max-width: 1024px) {
+  .h1StressfreeInvesting {
+    font-size: 4em;
+  }
 
+  .stressFreeInvesting {
+    width: 700px;
+    padding: 32px 0px 32px 0px;
+  }
+
+  .content{
+    width: 755px;
+    margin-left: -25px;
+  }
   .percentCoin {
     float: left;
     width: 50%;
   }
+  .rupeeCoin img{
+    height: 150px;
+    width: 150px;
+    left: 99.255859375px;
+    margin-top: 44px;
+    border-radius: 0px;
+  }
+  .rupeeCoin{
+    height: 250px;
+  }
+
+  .fcoin img{
+    height: 150px;
+    width: 150px; 
+    margin-right: 33px;
+  }
 
   .percentCoinImg {
     float: left;
-    margin-left: 100px;
+    height: 150px;
+    width: 150px;
   }
 
   .arrowCoin {
@@ -107,8 +136,113 @@
 
   .arrowCoinImg {
     float: right;
-    margin-right: 90px
+    height: 180px;
+    width: 180px;
+  }
+
+  .stressgridItem2 {
+    margin-top: -120px;
   }
 }
 
-@media (min-width: 300) and (max-width: 700) {}
+@media (min-width: 374px) and (max-width: 667px) {
+  .h1StressfreeInvesting {
+    font-size: 32px;
+    margin-top: 5px;
+    font-weight: 550;
+    font-size: 32px;
+    line-height: 41px;
+    color: #121B64;
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .stressFreeInvesting {
+    width: 330px;
+    padding: 0px 0px 32px 0px;
+    margin-left: -32px;
+    margin-top: 100px;
+  }
+
+  .content{
+    width: 327px;
+    font-size:16px;
+    line-height:20.51px;
+    text-align:Center;
+  }
+  .percentCoin {
+    float: left;
+    width: 50%;
+  }
+  .rupeeCoin img{
+    height: 60px;
+    width: 60px;
+    margin-left: 1.255859px;
+    margin-top: 44px;
+    border-radius: 0px;
+  }
+  .rupeeCoin{
+    height: 60px;
+  }
+
+  .fcoin{
+    height: 100px;
+    margin-left: -50px;
+  }
+  .fcoin img{
+    height: 62px;
+    width: 62px;
+    margin-top: 48px;
+  }
+
+  .percentCoinImg {
+    float: left;
+    height: 72px;
+    width: 72px;
+    left: 14px;
+  }
+
+  .arrowCoin {
+    width: 50%;
+  }
+
+  .arrowCoinImg {
+    float: right;
+    height: 66px;
+    width: 66px;
+    margin-right: 14px;
+  }
+  .stressgridItem1{
+    display: flex;
+    height: 389px;
+    width: 100%;
+  }
+
+  .stressgridItem2 {
+    margin-top: -120px;
+  }
+  .stressgrid{
+    display: block;
+    width: 100%;
+    height: 417px;
+  }
+  .joinTheWaitlist{
+    display: flex;
+    padding: 16px;
+    justify-items: center;
+    gap: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 32px;
+    height: 53px;
+    background: #121B64;
+    border-radius: 32px;
+    line-height: 21px;
+    flex-wrap: wrap;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    width: 139px;
+    font-family: futura Pt, sans-serif;
+  }
+}

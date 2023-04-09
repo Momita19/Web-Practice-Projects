@@ -20,16 +20,16 @@ const Footer = () => {
         </div>
         <div className={styles.phoneParent}>
           <Image className={styles.frameIcon} alt="" src="images/Footer/Phone.svg" width={24} height={24} />
-          <div className={styles.invest}>Call +91 9876543210</div>
+          <div className={styles.invest +" "+ styles.side3}>Call +91 9876543210</div>
         </div>
       </div>
       <div className={styles.investParent}>
         <div className={styles.invest}>Invest</div>
         <div className={styles.fdBazaarParent}>
-          <div className={styles.invest}>FD Bazaar</div>
-          <div className={styles.invest}>Savings ++</div>
-          <div className={styles.invest}>Tax Saver</div>
-          <div className={styles.invest}>Regular Income</div>
+          <div className={styles.invest +" "+ styles.side2}>FD Bazaar</div>
+          <div className={styles.invest +" "+ styles.side2}>Savings ++</div>
+          <div className={styles.invest +" "+ styles.side2}>Tax Saver</div>
+          <div className={styles.invest +" "+ styles.side2}>Regular Income</div>
         </div>
       </div>
       <div className={styles.companyParent}>
@@ -39,7 +39,7 @@ const Footer = () => {
           <div className={styles.invest}>Career</div>
           <div className={styles.invest}>Features</div>
           <div className={styles.invest}>Mission</div>
-          <div className={styles.invest}>{`Need & Support`}</div>
+          <div className={styles.invest +" "+ styles.side2}>{`Need & Support`}</div>
         </div>
       </div>
       <div className={styles.frameGroup}>

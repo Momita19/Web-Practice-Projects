@@ -64,4 +64,40 @@
 
 }
 
-@media(min-width:300px)and (max-width: 740px) {}
+@media(min-width:300px)and (max-width: 740px) {
+  .Announcement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+    width: 375px;
+    height: 40px;
+    background: #F7F7F7;
+    backdrop-filter: blur(16px);
+    border-radius: 6px;
+  }
+  
+  .takeAction {
+    width: 69px;
+    height: 18px;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #7E8139;
+  }
+  .p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    width: 232px;
+    height: 20px;
+    font-weight: 550;
+    padding-left: 2px;
+  }
+}
