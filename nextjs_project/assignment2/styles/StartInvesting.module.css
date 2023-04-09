@@ -21,8 +21,6 @@
   flex-direction: column;
   padding: 0em;
   gap: 2em;
-  /* width: 43.75em;
-  height: 16.625em; */
   align-items: center;
 }
 
@@ -30,12 +28,13 @@
   height: 1.8em;
   font-family: 'Futura PT', sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 64px;
+  font-weight: 550;
+  font-size: 32px;
   line-height: 120%;
   display: flex;
   align-items: center;
   color: #121B64;
+  justify-content: center;
 }
 
 .content {
@@ -46,7 +45,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
-  padding-left: 90px;
   line-height: 36px;
   display: flex;
   align-items: center;

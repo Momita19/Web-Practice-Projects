@@ -1,10 +1,10 @@
 .footerChild {
   position: absolute;
   bottom: 116.5px;
-  left: calc(50% - 648.5px);
+  left: 72px;
   border-top: 1px solid #DFDEDE;
   box-sizing: border-box;
-  width: 1296px;
+  width: 94rem;
   height: 1px;
 
 }
@@ -28,7 +28,7 @@
 
 .frameParent {
   position: absolute;
-  right: 79px;
+  right: 125px;
   bottom: 77px;
   display: flex;
   flex-direction: row;
