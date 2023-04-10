@@ -78,7 +78,7 @@
     align-items: center;
     padding: 100px 72px;
     gap: 10px;
-    width: 100%;
+    width: 880px;
     /* height: 1061px; */
     background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 31.23%);
     border-radius: 0px 0px 80px 80px;
@@ -174,8 +174,9 @@
 
   .frameGrp{
     display: block;
-    width: 420px;
+    width: 383px;
   }
+  
 
 
 }

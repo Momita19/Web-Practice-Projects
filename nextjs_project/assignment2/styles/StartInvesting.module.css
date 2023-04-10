@@ -95,16 +95,70 @@
 
 }
 
-@media (min-width: 300) and (max-width: 700) {
+@media (min-width: 300px) and (max-width: 700px) {
   .StartInvesting {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 48px 24px;
-    width: 375px;
-    height: 304px;
+    width: 375px !important;
+    height: 317px;
     background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 17.24%, #FFFFFF 100%);
     border-radius: 0px 0px 48px 48px;
+  }
+  .frameParent{
+    flex-direction: column;
+    margin-top: 48px;
+    gap: 2em;
+    align-items: center;
+    width: 327px;
+    margin-bottom: 48px;
+  }
+  .headerParent {
+    height: 1.8em;
+    font-family: 'Futura PT', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 32px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    color: #121B64;
+    justify-content: center;
+    margin-top:40px;
+  }
+  .content{
+    width: 327px;
+    height: 85px;
+    margin-top: 32px;
+    font-family: 'Futura PT', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #32302F;
+  }
+  .button{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    font-size: 16px;
+    margin-top: 32px;
+    width: 7.175em;
+    height: 53px;
+    background: #121B64;
+    border-radius: 32px;
+    color: white;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin-bottom: 48px;
   }
 }

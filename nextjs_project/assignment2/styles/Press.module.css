@@ -131,18 +131,83 @@
 
 }
 
-@media (min-width: 300) and (max-width: 700) {
+@media (min-width: 300px) and (max-width: 700px) {
   .screenInner {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 48px 24px;
-
-    width: 375px !important;
-    height: 304px !important;
-
+    width: 375px ;
+    height: 304px;
     background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 17.24%, #FFFFFF 100%);
     border-radius: 0px 0px 48px 48px;
   }
+  .frameGroup{
+    left: 0px;
+    width: 327px;
+  }
+  .inThePressParent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 327px;
+    height: 42px;
+  }
+  .inThePress{
+    font-family: 'Futura PT',sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 32px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #121B64;
+  }
+  .discoverThePassion{
+    width: 327px;
+height: 63px;
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #32302F;
+  }
+  .frameWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 327px;
+
+  }
+  .imageWrapper{
+    gap: 10px;
+    width: 122px;
+    height: 60px;
+    top: 30px;
+  }
+ .YourStoryIcon{
+  width: 76px;
+    height: 27.6px;
+    top: 12.8px;
+}
+.news18Icon{
+  width: 77px;
+    height: 30px;
+    top: 9.07px;
+}
+.livemintIcon{
+  position: absolute;
+  width: 81.6px;
+  height: 25.07px;
+  left: -0.8px;
+  top: 14.93px;
+}
 }

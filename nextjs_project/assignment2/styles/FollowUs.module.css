@@ -107,7 +107,7 @@
 
 }
 
-@media (min-width: 300) and (max-width: 700) {
+@media (min-width: 300px) and (max-width: 700px) {
   .FollowUs {
     box-sizing: border-box;
     display: flex;
@@ -118,5 +118,90 @@
     height: 304px;
     background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 17.24%, #FFFFFF 100%);
     border-radius: 0px 0px 48px 48px;
+    font-size: 32px;
+    font-weight: 550;
+  }
+  .frameParent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    width: 327px;
+    height: 306px;
+  }
+  .header {
+  font-family: 'Futura PT',sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 32px;
+  line-height: 41px;
+}
+  .FollowUsHeader {
+  width: 327px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #121B64;
+  }
+  .discoverThePassion{
+    font-family: 'Futura PT',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 327px;
+    height: 63px;
+    color: #32302F;
+    top: 10px;
+  }
+  .frameGroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 0px;
+    width: 327px;
+    height: 138px;
+    background: #FFFFFF;
+    margin-bottom: 48px;
+   
+  }
+  .youtubeIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 99px;
+    height: 74px;
+  }
+  .LinkedinIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 99px !important;
+    height: 74px !important;
+  }
+  .telegramIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 99px !important;
+    height: 74px !important;  
   }
 }
