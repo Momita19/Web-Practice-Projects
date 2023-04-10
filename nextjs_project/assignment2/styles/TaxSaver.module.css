@@ -124,7 +124,6 @@
   }
 
   .saveTax {
-
     width: 133px;
     height: 58px;
     border: 1px solid #121B64;
@@ -151,41 +150,60 @@
 
 @media only screen and (min-width:300px) and (max-width: 740px) {
   .TaxSaver {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
     justify-content: center;
     align-items: flex-start;
     padding: 48px 24px;
     gap: 24px;
-    width: 317px;
-    height: 631px;
+    width: 327px;
+    height: 760px !important;
     background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
     border-radius: 0px 0px 48px 48px;
-
+  }
+  .texSaverp p {
+    top: 162px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    display: flex-end;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    width: 314px;
+    right: 64px;
+    font-size: 16px;
+    font-size: 500;
+    font-family: "Futura PT", sans-serif;
+  }
+  .texSaverp{
+    width: 300px;
   }
 
   .emptyBlock2 {
-    width: 317px;
-    height: 317px;
+    width: 327px;
+    height: 327px;
     background: #DDDDDD;
+    top: -90px;
+    position: absolute;
+    right: 24px;
   }
+  
 
   .TaxSaverContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 48px 24px;
+       padding: 0px 24px;
     gap: 24px;
     width: 290px;
-    height: 652px;
-    background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
-    border-radius: 0px 0px 48px 48px;
   }
 
   .taxHeader {
-    width: 327px;
-    height: 41px;
+    width: 175px;
+    height: 27px;
     font-family: 'Futura PT';
     font-style: normal;
     font-weight: 500;
@@ -195,6 +213,31 @@
     align-items: center;
     text-align: center;
     color: #121B64;
+    top: 200px;
+    right: 87px;
+    justify-content: center;
+    position: absolute;
   }
+  .saveTaxParent {
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    display: flex;
+} 
+  .saveTax {
+    text-align: center;
+    border: 1px solid #121B64;
+    border-radius: 55px;
+    padding: 16px;
+    gap: 10px;
+    color: #121B64;
+    float: right;
+    align-items: end;
+    left: 125px;
+    position: absolute;
+    top: 703px;
+}
+  
+  
   
 }
