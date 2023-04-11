@@ -69,8 +69,13 @@
 
   @media (min-width: 340px) and (max-width:770px) {
     .frameParent {
-      width: 327px;
+      width: 305px;
       height: 150px;
       margin: 24px;
     }
+    .lowRiskHigh{
+      width: 289px;
+      height: 31px;
+    }
+    
   }

@@ -143,11 +143,12 @@
     align-items: center;
     padding: 48px 24px;
     gap: 10px;
-    width: 375px;
+    width: 327px;
     height: 789px;
     background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 31.23%);
     border-radius: 0px 0px 48px 48px;
   }
+  
 
   .frame {
     display: flex;

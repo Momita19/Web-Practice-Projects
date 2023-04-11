@@ -146,22 +146,20 @@
     align-items: center;
     padding: 48px 24px;
     gap: 32px;
-    width: 375px;
+    width: 327px;
     height: 1132px;
     background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
     border-radius: 0px 0px 48px 48px;
   }
+
   .learningContent {
     font-family: sans-serif;
     margin: 0px 72px 0px 72px;
-  }
-
-  .learningContent {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    width: 880px;
+    width: 327px;
     height: 1085px;
   }
 
@@ -207,6 +205,16 @@
     display: block !important;
     height: 850px;
     overflow: hidden;
+  }
+  .frame{
+    top: -48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 327px;
+    height: 693px;
   }
 
   /* .image{
