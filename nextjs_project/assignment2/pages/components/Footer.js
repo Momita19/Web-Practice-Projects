@@ -16,7 +16,7 @@ const Footer = () => {
             Call us and we will solve all your doubts and help you grow your
             business
           </div>
-          
+          {/* C:\Users\welcome\Desktop\Momita\study\Practice\Web-Practice-Projects1\nextjs\assignment2\pages\components\Footer.js */}
           <div className={styles.phoneParent}>
             <img className={styles.frameIcon} alt="" src="/phone.svg" />
             <div className={styles.invest +" "+ styles.side3}>Call  +91 9876543210</div>
