@@ -3,7 +3,6 @@
   border-radius: 0px 0px 80px 80px;
   background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 52.6%, #FFFFFF 100%);
   width: 100%;
-  ;
   height: 47.5em;
   flex-shrink: 0;
   overflow: hidden;
@@ -103,6 +102,16 @@
     align-items: center;
     padding: 100px 72px;
     gap: 32px;
+  }
+  .header{
+    font-weight: 550;
+    font-size: 64px;
+    line-height: 120%;
+    color: #121B64;
+    margin-bottom: 0px;
+  }
+  .discoverThePassion{
+    font-size: 28px;
   }
 
 }

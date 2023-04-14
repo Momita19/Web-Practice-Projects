@@ -59,7 +59,7 @@
   font-family: var(--paragraph-20);
 }
 
-@media only screen and (max-width: 391px) {
+@media only screen and (max-width: 700px) {
   .frameGroup {
     width: 155.5px;
     height: 59px;

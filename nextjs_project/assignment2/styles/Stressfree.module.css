@@ -26,7 +26,7 @@
 
 .stressFreeInvesting {
   display: table-column;
-  width: 52.3rem;
+  width: 100%;
   align-items: center;
   margin-top: 6.6875rem;
   background: #FFFFFF;
@@ -65,7 +65,7 @@
 
 .arrowCoinImg {
   float: right;
-  margin-right: 110px
+  margin-right: -72px
 }
 
 .joinTheWaitlist {
@@ -89,7 +89,7 @@
 
 /* middle section of investing ends here */
 
-@media (min-width: 669px) and (max-width: 1024px) {
+@media (min-width: 741px) and (max-width: 1024px) {
   .h1StressfreeInvesting {
     font-size: 4em;
   }
@@ -121,7 +121,8 @@
   .fcoin img{
     height: 150px;
     width: 150px; 
-    margin-right: 33px;
+    margin-right: 25px;
+    margin-top: 46px;
   }
 
   .percentCoinImg {
@@ -138,6 +139,7 @@
     float: right;
     height: 180px;
     width: 180px;
+    margin-right: 53px;
   }
 
   .stressgridItem2 {

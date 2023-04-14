@@ -58,6 +58,7 @@
   height: 9.375rem;
   flex-shrink: 0;
   overflow: hidden;
+  left: -120px;
 }
 
 .news18Icon,
@@ -90,7 +91,7 @@
 
 .frameWrapper {
   position: relative;
-  width: 72%;
+  width: 75%;
   height: 10.625rem;
   flex-shrink: 0;
   overflow: hidden;
@@ -114,7 +115,7 @@
 
   .frameWrapper {
     position: relative;
-    width: 880px;
+    width: 900px;
     height: 170px;
     flex-shrink: 0;
     overflow: hidden;
@@ -127,6 +128,7 @@
     height: 9.375rem;
     flex-shrink: 0;
     overflow: hidden;
+    left: -120px;
   }
 
 }
@@ -189,9 +191,12 @@ color: #32302F;
   }
   .imageWrapper{
     gap: 10px;
-    width: 122px;
+    width: 90px;
     height: 60px;
     top: 30px;
+    left: 27px;
+    display: flex;
+    
   }
  .YourStoryIcon{
   width: 76px;

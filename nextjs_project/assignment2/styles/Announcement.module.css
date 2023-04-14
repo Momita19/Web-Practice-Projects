@@ -39,7 +39,7 @@
     align-items: center;
     padding: 10px;
     gap: 10px;
-    position: absolute;
+    position: relative;
     width: 1024px;
     height: 52px;
     left: calc(50% - 1024px/2);
