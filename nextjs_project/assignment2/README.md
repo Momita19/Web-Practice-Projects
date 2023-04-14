@@ -1,6 +1,6 @@
 
 
-This is a [Next.js](https://nextjs.org/) project (https://vercel.com/momita19/web-practice-projects/H7zyNugkBTivCxxJVnAFqwXej3eh) with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project (https://web-practice-projects-4auz5dab8-momita19.vercel.app/) with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 
 
