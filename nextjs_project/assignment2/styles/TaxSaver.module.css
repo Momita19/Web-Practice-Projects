@@ -148,7 +148,7 @@
   }
 }
 
-@media only screen and (min-width:300px) and (max-width: 740px) {
+@media (min-width:370px) and (max-width: 740px) {
   .TaxSaver {
     display: flex !important;
     flex-direction: column !important;

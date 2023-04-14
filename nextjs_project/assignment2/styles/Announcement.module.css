@@ -64,7 +64,7 @@
 
 }
 
-@media(min-width:300px)and (max-width: 740px) {
+@media(min-width:370px)and (max-width: 740px) {
   .Announcement {
     display: flex;
     flex-direction: row;

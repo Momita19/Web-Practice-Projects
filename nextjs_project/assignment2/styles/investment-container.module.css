@@ -110,7 +110,7 @@
 
 }
 
-@media (min-width: 340px) and (max-width:740px) {
+@media (min-width: 370px) and (max-width:740px) {
   .frameParent {
     width: 305px;
     height: 150px;

@@ -10,11 +10,11 @@ const Navbar = () => {
             <img className={styles.frameIcon} src="/frame.svg" />
             <div className={styles.frameParent}>
                 <div className={styles.frameWrapper}>
-                    <button className={styles.investParent}>
-                        <div className={styles.invest}>Invest</div>
+                    <button className={styles.investParent} onclick="this.classList.toggle('active');">
+                        <div className={styles.invest}>Invest </div>
+                        
                         <img
                             className={styles.chevronDownIcon}
-
                             src="/Vector.svg"
                         />
                     </button>
@@ -31,42 +31,24 @@ const Navbar = () => {
                     Best Investment Options
                 </div>
             </button>
+            <div className={styles.burger} class="dropbtn" onclick="this.classList.toggle('active');">
+            
+            <div class="hamburger-lines" >
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+            </div>  
+            <div id="myDropdown" class="dropdown-content"></div>
+          {/* <div class="menu-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">blogs</a></li>
+            <li><a href="#">portfolio</a></li>
+            <li><a href="#">contact</a></li>
+          </div> */}
+          </div>
         </nav>
-        //    <Image src="/Frame.png" width="100" height="100y">
-        //    </Image>
     )
 }
 export default Navbar
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {
-//   faCompass,
-//   faMapMarkerAlt,
-//   faUser,
-//   faShoppingCart
-// } from "@fortawesome/free-solid-svg-icons";
 
-
-
-//   return (
-//       <nav className={styles.navMenu}>
-//         <div className={styles.navbar} id="nav">
-//           <div className={styles.itemGrid}>
-//                 <Image  className={styles.logo}
-//                   src="/images/Frame.png" alt="logo" width={108.75} height={30} />
-//             </div>
-//             <div className={styles.itemGrid}>
-//               <ul className={styles.menuList}>
-//                 <Link href='/Invest'><li width={120}>Invest</li></Link>
-//                 <Link href='/blog'><li width={86}>Blog</li></Link>
-//                 <Link href='/About'><li>About</li></Link>
-//               </ul>
-//               </div>
-//               <div className={styles.itemGrid}>
-//               <button className={styles.bestinvestment}>Best Investment Options</button>
-//             </div>
-//             </div>
-//       </nav>
-    
-//   )
-// }
 

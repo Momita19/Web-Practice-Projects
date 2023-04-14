@@ -129,7 +129,7 @@
   font-family: serif;
 }
 
-@media only screen and (max-width: 1024px) {
+@media (min-width: 741px) and (max-width: 1024px) {
   .footerChild {
     width: 85rem;
     left: 4.5rem;
@@ -188,7 +188,7 @@
   }
 }
 
-@media only screen and (max-width: 391px) {
+@media (min-width: 370px) and (max-width: 741px) {
   .footerParent {
     width: 375px;
     height: 687px;

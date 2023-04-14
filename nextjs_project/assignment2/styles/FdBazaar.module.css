@@ -162,7 +162,7 @@
   }
 }
 
-@media (min-width:375px) and (max-width: 740px) {
+@media (min-width:370px) and (max-width: 740px) {
   .fdbazar {
     display: block;
     flex-direction: column;
