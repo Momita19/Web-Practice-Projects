@@ -7,7 +7,7 @@ import React from 'react'
 import Header from '../components/header/Header'
 // import Body from '../components/body/Body'
 import Footer from '../components/footer/Footer'
-import Mytodo from '../components/header/Mytodo'
+import Mytodo from '../components/header/todos'
 
 export default function Home() {
   
@@ -17,8 +17,15 @@ export default function Home() {
     let todos = localStorage.getItem("todos");
     if(todos){
       let todosJson = JSON.parse(todos)
-      todosJson.push(todo)
+      if (todosJson.filter(value=>{ return value.title == todo.title}).length > 0){
+        alert("todo title is already exists")
+        setTodo({title: "", desc: ""})
+      }
+      else
+      {todosJson.push(todo)
       localStorage.setItem("todos", JSON.stringify(todosJson))
+      alert("todo has been added")
+      setTodo({title: "", desc: ""})}
     }
     else{
       localStorage.setItem("todos", JSON.stringify([todo]))
@@ -44,7 +51,7 @@ export default function Home() {
                             <label for="desc" class="leading-7 text-sm text-gray-600">Todo list</label>
                             <input onChange={onChange} value={todo.desc} type="text" id="desc" name="desc" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
                         </div>
-                        <button onClick ={addTodo} class="text-white bg-indigo-500 border-0 w-fit py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+                        <button onClick ={addTodo} class="text-white bg-indigo-500 border-0 w-fit py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Add todo</button>
                     </div>
                 </div>
             </section>
