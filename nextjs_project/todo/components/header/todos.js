@@ -13,7 +13,7 @@ const todos = () => {
   
   
   
-  const deleteTodo = () =>{
+  const deleteTodo = (title) =>{
     let newTodos = todos.filter(item =>{
       return item.title != title;
     })
@@ -22,7 +22,7 @@ const todos = () => {
   }
 
   const editTodo =()=>{
-
+    
   }
   const shareTodo =()=>{
     
